@@ -10,6 +10,7 @@ import androidx.core.content.ContextCompat;
 import android.util.Log;
 
 import com.app.multipicker.api.exceptions.PickerException;
+import com.app.multipicker.storage.StoragePreferences;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,7 +20,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import storage.StoragePreferences;
 
 /**
  * Created by kbibek on 2/20/16.

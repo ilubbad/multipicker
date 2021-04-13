@@ -15,11 +15,11 @@ import android.provider.OpenableColumns;
 import androidx.fragment.app.Fragment;
 import com.app.multipicker.api.CacheLocation;
 import com.app.multipicker.api.exceptions.PickerException;
+import com.app.multipicker.storage.StoragePreferences;
 import com.app.multipicker.utils.FileUtils;
 import com.app.multipicker.utils.LogUtils;
 import java.io.File;
 import java.util.UUID;
-import storage.StoragePreferences;
 
 /**
  * Abstract class for all types of Pickers
